@@ -51,3 +51,8 @@ To generate a client certificate:
 openssl req -x509 -nodes -newkey rsa:2048 -keyout client.key -out client.crt -days 365
 
   
+Note1: To test bandwidth code using the tunnel make sure iperf3 is installed . Command to install iperf3:
+  
+sudo apt install iperf3
+  
+Note2 : Make sure to use zerotier ip when running the encrypted tunnel server-client program.
